@@ -1,0 +1,13 @@
+{
+  "require": {
+    "stripe/stripe-php": "*",
+    "aws/aws-sdk-php": "^3.283",
+    "cboden/ratchet": "^0.4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "tdjones\\": "tdjones/"
+    },
+    "files": ["tdjones/websocket_chat.php"]
+  }
+}
